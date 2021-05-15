@@ -1,0 +1,387 @@
+body {
+  font-family: "Public Sans", sans-serif !important;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 300 !important;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+
+/* ---------------------------------------------- Navigation -----------------------------------------*/
+
+#title {
+  /* background-color: hsl(0, 0%, 98%); */
+  width: 100%;
+}
+
+.navbar {
+  /* background-color: hsl(0, 0%, 100%) !important; */
+  z-index: 999;
+}
+
+.navbar-brand {
+  margin-left: 9%;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+
+/* --------------------------------------- Info Page ------------------------------------------------*/
+
+
+
+
+.info-page {
+  position: relative;
+  overflow: hidden;
+  padding: 5% 10% 7%;
+  min-height: 700px;
+}
+
+.intro-info p {
+  padding: 0 50px 0 0;
+  font-size: 1.2;
+  font-weight: 400;
+  color: #9597a5 !important;
+}
+
+
+.intro-info-heading {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.desktop-image {
+  position: absolute;
+  transform: translate(70px, -330px);
+}
+
+.phone-image {
+  position: absolute;
+  left: 60%;
+  top: -55px;
+  z-index: 1;
+}
+
+/* ------------------------------------------ Features ------------------------------------------*/
+
+#features-section {
+  position: relative;
+  padding: 8% 10% 6%;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.feature-heading {
+  margin-bottom: 20px;
+}
+
+.feature-intro > p {
+  font-size: 1.2;
+  font-weight: 400;
+  color: #9597a5 !important;
+}
+
+.features-box > svg {
+  margin: 15% 0;
+}
+
+.features-box > p {
+  margin-top: 15%;
+  color: #9597a5;
+  line-height: 2;
+}
+
+/* ------------------------------------------- Articles ------------------------------------------*/
+
+#articles {
+  background-color: hsl(0, 0%, 98%);
+  padding: 8%;
+}
+
+.article-intro {
+  margin-bottom: 5%;
+  /* text-align: center; */
+}
+
+.card {
+  text-align: left !important;
+  width: 5%;
+  margin: 10px 30px 10px 10px;
+  border-radius: 5px !important;
+  border-style: none !important;
+  padding: 0 !important;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-title:hover {
+  color: #30c88f;
+  cursor: pointer;
+}
+
+.card .card-text {
+  font-size: 0.85rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0 !important;
+  width: 100%;
+}
+
+.card-text-name {
+  font-size: 0.75rem;
+}
+
+/* ---------------------------------------------- Footer --------------------------------------------*/
+
+#footer {
+  background-color: hsl(233, 26%, 24%);
+}
+
+.footer-brand {
+  margin: 50px 80px 50px 165px;
+}
+
+.footer-brand .footer-links {
+  margin-top: 50px;
+}
+
+.footer-links > a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.icon {
+  fill: #fff;
+}
+
+.icon:hover {
+  fill: #30c88f;
+}
+
+.footer-pages {
+  margin-top: 45px;
+}
+
+.footer-pages-one {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.footer-pages-two {
+  display: inline-block;
+}
+
+.footer-pages-link {
+  color: white;
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 0.9rem !important;
+  text-decoration: none !important;
+}
+
+.footer-pages-link:hover {
+  color: #30c88f;
+}
+
+.copyright {
+  margin: 50px 40px 50px 200px;
+  text-align: right;
+}
+
+.copyright p {
+  padding-top: 20px;
+}
+
+/* -------------------------------------- Buttons ----------------------------------------------*/
+
+.btn {
+  background: #31d35c;
+  background-image: -webkit-linear-gradient(left, #31d35c, #2bb7da);
+  background-image: -moz-linear-gradient(left, #31d35c, #2bb7da);
+  background-image: -ms-linear-gradient(left, #31d35c, #2bb7da);
+  background-image: -o-linear-gradient(left, #31d35c, #2bb7da);
+  background-image: -webkit-gradient(to right, #31d35c, #2bb7da);
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px !important;
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 163px !important;
+  height: 44px !important;
+}
+
+.btn:hover {
+  /* background: #ffffff !important; */
+  background-image: -webkit-linear-gradient(left, #abd1b5, #81bdcc);
+  background-image: -moz-linear-gradient(left, #abd1b5, #81bdcc);
+  background-image: -ms-linear-gradient(left, #abd1b5, #81bdcc);
+  background-image: -o-linear-gradient(left, #abd1b5, #81bdcc);
+  background-image: -webkit-gradient(to right, #abd1b5, #81bdcc);
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px;
+  text-decoration: none;
+}
+
+.nav-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* ------------------------------------- Modal --------------------------------*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 10%; /* Full width */
+  height: 10%; /* Full height */
+  overflow: auto; 
+  background-color: rgb(112, 76, 76);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50% !important; /* Could be more or less, depending on screen size */
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ---------------------------------------- Mobile design --------------------------------------*/
+
+
+
+@media (max-width: 400px) {
+  body {
+    text-align: center !important;
+  }
+
+  h3{
+    font-size: 1.25rem !important;
+  }
+
+  .info-page{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .intro-info{
+    text-align: center !important;
+  }
+
+  .desktop-image{
+    left: 30px;
+    z-index: -1;;
+  }
+
+  .phone-image {
+    display: none;
+  }
+
+  .feature-intro {
+    margin-top: 30px;
+  }
+
+  .feature-intro h1{
+    font-size: 2rem;
+  }
+
+
+  .features-box > p{
+    font-size: 0.938rem;
+    margin-top: 15px;
+  }
+
+  .footer-brand {
+    position: relative;
+    margin: 0px;
+  }
+
+  .brand{
+    margin-top: 40px;
+  }
+
+  .footer-links{
+    position: relative;
+    left: 20px;
+    margin: 30px 0 30px 0 !important;
+  }
+
+
+  .footer-pages{
+    margin-top: 0px;
+  }
+
+  .footer-pages-one,
+  .footer-pages-two {
+    display: block;
+    position: relative;
+  }
+
+  .footer-pages-one {
+    left: 60px;
+  }
+
+  .footer-pages-two {
+    left: 20px;
+  }
+
+  .footer-pages-link {
+    text-align: center !important;
+  }
+
+  .copyright {
+    position: relative;
+    right: 105px;
+    text-align: center;
+  }
+}
