@@ -368,11 +368,11 @@ p {
   }
 
   .footer-pages-one {
-    left: 55px;
+    left: 50px;
   }
 
   .footer-pages-two {
-    left: 15px;
+    left: 10px;
   }
 
   .footer-pages-link {
@@ -381,7 +381,7 @@ p {
 
   .copyright {
     position: relative;
-    right: 105px;
+    right: 110px;
     text-align: center;
   }
 }
